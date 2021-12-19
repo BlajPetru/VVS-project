@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="23" y="20" width="638" height="428"/>
+    </constraints>
+    <properties>
+      <background color="-5429554"/>
+      <maximumSize width="-1" height="-1"/>
+      <preferredSize width="500" height="300"/>
+    </properties>
+    <border type="etched" title-position="2"/>
+    <children>
+      <component id="22026" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-15491308"/>
+          <foreground color="-4520425"/>
+          <label value="Start"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="90289" class="javax.swing.JButton" binding="maintenanceButton">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Maintenance"/>
+          <background color="-14508779"/>
+          <foreground color="-4516827"/>
+          <label value="Maintenance"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Maintenance"/>
+        </properties>
+      </component>
+      <component id="3b7c3" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-15094776"/>
+          <caretColor color="-4520440"/>
+          <preferredSize width="100" height="30"/>
+        </properties>
+      </component>
+      <component id="ee02e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-13545828"/>
+          <foreground color="-13386974"/>
+          <inheritsPopupMenu value="true"/>
+          <text value="Please enter a port:"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="73dc5" class="javax.swing.JButton" binding="stopButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-15489254"/>
+          <foreground color="-4521980"/>
+          <label value="Stop"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Stop"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
